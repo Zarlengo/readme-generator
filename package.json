@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "CLI readme.md generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Zarlengo",
+  "license": "MIT License",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zarlengo/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zarlengo/readme-generator/issues"
+  },
+  "homepage": "https://github.com/Zarlengo/readme-generator#readme"
+}
