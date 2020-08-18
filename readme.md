@@ -27,9 +27,13 @@ CLI program to create a readme.md file for a project
     ```
     node index.js
     ```
-2. Enter the repository location
+2. Enter the repository location URL
     ```
     What is the URL of your repository?
+    ```
+2. Enter the save folder location for the md file
+    ```
+    What is the folder path where you want to save the readme.md file?
     ```
 3. Enter the project name
     ```
@@ -72,6 +76,7 @@ CLI program to create a readme.md file for a project
     ```
     What is your email?
     ```
+13. Success message (or failure message) will display upon completion
 ## 3 License
     Copyright © 2020 Chris Zarlengo
 

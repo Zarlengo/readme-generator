@@ -5,11 +5,18 @@ const filename = "readme.md";
 
 // array of questions for user
 const questions = [
-    // Repository Name
+    // Repository URL
     {
         type: "input",
         name: "repository",
         message: "What is the URL of your repository?",
+        validate: (name) => name !== ""
+    },
+    // Local folder location
+    {
+        type: "input",
+        name: "folder",
+        message: "What is the folder path where you want to save the readme.md file?",
         validate: (name) => name !== ""
     },
     // 1) Project Title
@@ -105,7 +112,11 @@ const writeToFile = (data) => {
     const generateMarkdown = new GenerateMarkdown(data);  
 
     const fileIO = new FileIO();
-    fileIO.write(filename, generateMarkdown.readme).then(console.log("Success, the file was created!")).catch(error => console.log(`Sorry, the file was unable to be created. See error:\n${error}`));
+    // Check folder location if the last character is a Backslash
+    if (data.folder[data.folder.length - 1] != "\\") {
+        data.folder = `${data.folder}\\`
+    }
+    fileIO.write(`${data.folder}${filename}`, generateMarkdown.readme).then(console.log("Success, the file was created!")).catch(error => console.log(`Sorry, the file was unable to be created. See error:\n${error}`));
 
 }
 
