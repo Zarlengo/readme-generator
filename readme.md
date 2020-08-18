@@ -27,56 +27,73 @@ CLI program to create a readme.md file for a project
     ```
     node index.js
     ```
+    ![node index.js](./assets/1-node.gif)
 2. Enter the repository location URL
     ```
     What is the URL of your repository?
     ```
-2. Enter the save folder location for the md file
+    ![repository](./assets/2-url.gif)
+3. Enter the save folder location for the md file
     ```
     What is the folder path where you want to save the readme.md file?
     ```
-3. Enter the project name
+    ![folder](./assets/3-folder.gif)
+4. Enter the project name
     ```
     What is the name of your project?
     ```
-4. Enter the project description
+    ![title](./assets/4-title.gif)
+5. Enter the project description
     ```
     What is the description for your project?
     ```
-5. Enter the installation steps (this will open in a text editor, formatting in markdown)
+    ![description](./assets/5-description.gif)
+6. Enter the installation steps (this will open in a text editor, formatting in markdown)
     ```
     What are the steps required to install your project?
     ```
-6. Enter instruction on how to use your program
+    ![install-ps](./assets/6-install-ps.gif)
+    ![install-txt](./assets/6-install-txt.gif)
+7. Enter instruction on how to use your program
     ```
     What are the usage instructions for your project?
     ```
-7. Pick software license
+    ![usage-ps](./assets/7-usage-ps.gif)
+    ![usage-txt](./assets/7-usage-txt.gif)
+8. Pick software license
     ```
     Choose your license
     ```
-    ![license.jpg](./assets/license.jpg)
-8. Enter all contributor github usernames, each person on a new line
+    ![license](./assets/8-license.gif)
+9. Enter all contributor github usernames, each person on a new line
     ```
     What are the github usernames for the contributors?
     ```
-9. Enter test procedures
+    ![contributor-ps](./assets/9-contributor-ps.gif)
+    ![contributor-txt](./assets/9-contributor-txt.gif)
+10. Enter test procedures
     ```
     What are the test steps for your project?
     ```
-10. Enter the authors name
+    ![tests-ps](./assets/10-tests-ps.gif)
+    ![tests-txt](./assets/10-tests-txt.gif)
+11. Enter the authors name
     ```
     What is your name?
     ```
-11. Enter the authors github username
+    ![author](./assets/11-author.gif)
+12. Enter the authors github username
     ```
     What is your github username?
     ```
-12. Enter the author's email
+    ![username](./assets/12-username.gif)
+13. Enter the author's email
     ```
     What is your email?
     ```
-13. Success message (or failure message) will display upon completion
+    ![email](./assets/13-email.gif)
+14. Success message (or failure message) will display upon completion
+    ![success](./assets/14-success.gif)
 ## 3 License
     Copyright © 2020 Chris Zarlengo
 
