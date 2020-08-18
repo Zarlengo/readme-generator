@@ -43,7 +43,7 @@ const questions = [
     // 5) License
     {   type: "list",
         name: "license",
-        message: "Choose your license",
+        message: "Choose your license:",
         choices: [
             "Apache License 2.0",
             "Boost Software License 1.0",

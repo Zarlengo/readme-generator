@@ -10,11 +10,13 @@ CLI program to create a readme.md file for a project
 2. [Usage](#2-usage)
 3. [License](#3-license)
 4. [Contributing](#4-contributing)
-5. [Tests](#5-tests)
-6. [Questions](#6-questions)
+5. [Questions](#5-questions)
 
 ## 1 Installation
-1. Download repository
+1. Download repository [Readme Generator](https://github.com/Zarlengo/readme-generator)
+    ```
+    Git clone https://github.com/Zarlengo/readme-generator
+    ```
 2. Install dependencies
     ```
     npm install
@@ -25,7 +27,51 @@ CLI program to create a readme.md file for a project
     ```
     node index.js
     ```
-
+2. Enter the repository location
+    ```
+    What is the URL of your repository?
+    ```
+3. Enter the project name
+    ```
+    What is the name of your project?
+    ```
+4. Enter the project description
+    ```
+    What is the description for your project?
+    ```
+5. Enter the installation steps (this will open in a text editor, formatting in markdown)
+    ```
+    What are the steps required to install your project?
+    ```
+6. Enter instruction on how to use your program
+    ```
+    What are the usage instructions for your project?
+    ```
+7. Pick software license
+    ```
+    Choose your license
+    ```
+    ![license.jpg](./assets/license.jpg)
+8. Enter all contributor github usernames, each person on a new line
+    ```
+    What are the github usernames for the contributors?
+    ```
+9. Enter test procedures
+    ```
+    What are the test steps for your project?
+    ```
+10. Enter the authors name
+    ```
+    What is your name?
+    ```
+11. Enter the authors github username
+    ```
+    What is your github username?
+    ```
+12. Enter the author's email
+    ```
+    What is your email?
+    ```
 ## 3 License
     Copyright © 2020 Chris Zarlengo
 
@@ -50,11 +96,7 @@ CLI program to create a readme.md file for a project
 ## 4 Contributing
 * [Zarlengo](https://github.com/Zarlengo)
 
-
-## 5 Tests
-None
-
-## 6 Questions
+## 5 Questions
 * [Github Profile for Zarlengo](https://github.com/Zarlengo)
 * [Send email to christopher@zarlengo.net](mailto:christopher@zarlengo.net)
-* [File an issue](https://github.com/Zarlengo/readme-generator\issues)
+* [File an issue](https://github.com/Zarlengo/readme-generator/issues)

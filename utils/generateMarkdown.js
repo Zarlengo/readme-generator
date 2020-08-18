@@ -6,9 +6,9 @@ class GenerateMarkdown {
 
     const License = new CreateLicense(data.license, data.author_name);
 
-    // Check URL if the last character is a Backslash
-    if (data.repository[data.repository.length - 1] != "\\") {
-        data.repository = `${data.repository}\\`
+    // Check URL if the last character is a Forwardslash
+    if (data.repository[data.repository.length - 1] != "/") {
+        data.repository = `${data.repository}/`
     }
 
     // Make contributors a link to their profile
